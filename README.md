@@ -5,6 +5,9 @@ SpringBoot3 Learning Project
 - Ricky Ruan
 - Eve Wang
 
+# Learning Prerequisite:
+- Intro of Java 
+
 # Learning Roadmap:
 - JavaWeb: [黑马-JavaWeb-2023Version](https://www.bilibili.com/video/BV1m84y1w7Tb/?spm_id_from=333.788.recommend_more_video.1&vd_source=8d421a5ac69ef359aafa0c204423d59a):
    - 结合Spring 官方网站推荐的学习路线：
