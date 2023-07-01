@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-表格</title>
+    <style>
+        td {
+            text-align: center; /* 单元格内容居中展示 */
+        }
+    </style>
+</head>
+<body>
+    
+<!-- 
+form 表单标签：
+action：表单提交的url，往何处提交数据
+method：表单的提交方式
+
+表单必须要有 name 才能提交！！
+ -->
+
+ <!-- 
+    get: 直接在url后面拼接，进行请求，url长度有限制，为method的默认值
+ -->
+    <!-- <form action="" method="get">
+        Username: <input type="text" name="username">
+        Age: <input type="text" name="age">
+        
+        <input type="submit" value="提交">
+    </form> -->
+
+    <!-- 
+        post： 在消息体（请求体）中传递的，参数大小无限制。
+    -->
+
+    <form action="" method="post">
+        Username: <input type="text" name="username">
+        Age: <input type="text" name="age">
+        
+        <input type="submit" value="提交">
+    </form>
+
+</body>
+</html>
