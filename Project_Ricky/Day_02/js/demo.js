@@ -1,0 +1,1 @@
+alert('Hello JS from outer script');
