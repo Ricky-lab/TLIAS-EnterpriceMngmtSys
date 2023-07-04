@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-表单</title>
+</head>
+<body>
+    <!-- 
+    form表单属性: 
+        action: 表单提交的url, 往何处提交数据 . 如果不指定, 默认提交到当前页面
+        method: 表单的提交方式 .
+            get: 在url后面拼接表单数据, 比如: ?username=Tom&age=12 , url长度有限制 . 默认值
+            post: 在消息体(请求体)中传递的, 参数大小无限制的.
+    * 表单项必须得有name属性才可以提交，否则是不可以提交的
+    -->   
+
+    <form action="" method="post">
+        username: <input type="text" name="username"><br>
+        age: <input type="text" name="age"><br>
+
+        <input type="submit" value = "submit">
+    </form>
+
+</body>
+</html>

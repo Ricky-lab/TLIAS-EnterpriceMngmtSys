@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-运算符</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var age = 20;
+    var _age = "20";
+    var $age = 20;
+    
+    alert(age == _age);
+    alert(age === _age);
+    alert(age === $age);
+
+
+    // 类型转换 - 其他类型转为数字
+    // alert(parseInt("12"));  // 12
+    // alert(parseInt("12A45"));  // 12，从第一个开始匹配，如果说后面匹配到了不是数字的，就不会再进行转换了
+    // alert(parseInt("A45")); // NaN, not a number
+
+
+    // 类型转换 - 其他类型转为boolean
+    // if(0){ // 自动类型转换，会将0转换成boolean
+    //     alert("0 转换为false");
+    // }
+    // if(NaN){
+    //     alert("NaN 转换为false");
+    // }
+    // if(1){
+    //     alert("除0和NaN其他数字都转为 true");
+    // }
+
+    // if(""){
+    //     alert("空字符串为 false, 其他都是true");
+    // }
+        
+    // if(null){
+    //     alert("null 转化为false");
+    // }
+    // if(undefined){
+    //     alert("undefined 转化为false");
+    // }
+
+</script>
+</html>
