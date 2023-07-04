@@ -11,6 +11,7 @@
 <body>
     <div id="app">
         <table border="1" cellspacing="0" width="60%">
+            <!-- Changed -->
             <tr>
                 <th>编号</th>
                 <th>姓名</th>
@@ -46,7 +47,6 @@
        },
        mounted () {
           //发送异步请求,加载数据
-          //this url is not working anymore
           axios.get("http://yapi.smart-xwork.cn/mock/169327/emp/list").then(result => {
             this.emps = result.data.data;
           })
