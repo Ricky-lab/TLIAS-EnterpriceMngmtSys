@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
       <module name="demo" target="17" />
-      <module name="tlias-web-management" target="17" />
+      <module name="tlias-web-management" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
