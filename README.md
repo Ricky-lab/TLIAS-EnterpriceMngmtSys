@@ -18,3 +18,7 @@ SpringBoot3 Learning Project
 # Reference:
 - [Java Developer Skills You Must Have ](https://www.interviewbit.com/blog/java-developer-skills/_)
 - [The 2023 Java Programmer RoadMap](https://medium.com/javarevisited/the-java-programmer-roadmap-f9db163ef2c2 )
+
+# Note:
+- The links and the datas from YAPI is not working anymore. 
+- We can not access data from YAPI.
