@@ -1,5 +1,6 @@
 package com.itheima.service.impl;
 
+
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.itheima.mapper.EmpMapper;
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -50,5 +52,24 @@ public class EmpServiceImpl implements EmpService {
     @Override
     public void delete(List<Integer> ids) {
         empMapper.delete(ids);
+    }
+
+    @Override
+    public void save(Emp emp) {
+        emp.setCreateTime(LocalDateTime.now());
+        emp.setUpdateTime(LocalDateTime.now());
+
+        empMapper.save(emp);
+    }
+
+    @Override
+    public Emp getById(Integer id) {
+        return empMapper.getById(id);
+    }
+
+    @Override
+    public void update(Emp emp) {
+        emp.setUpdateTime(LocalDateTime.now());
+        empMapper.update(emp);
     }
 }

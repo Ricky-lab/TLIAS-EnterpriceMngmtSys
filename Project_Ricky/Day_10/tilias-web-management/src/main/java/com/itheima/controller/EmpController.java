@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.itheima.pojo.Emp;
 import com.itheima.pojo.PageBean;
 import com.itheima.pojo.Result;
 import com.itheima.service.EmpService;
@@ -33,6 +34,22 @@ public class EmpController {
     public Result delete(@PathVariable List<Integer> ids){
         log.info("Combining deletion");
         empService.delete(ids);
+        return Result.success();
+    }
+
+    @PostMapping
+    public Result save(@RequestBody Emp emp){
+        empService.save(emp);
+        return Result.success();
+    }
+    @GetMapping("/{id}")
+    public Result getById(@PathVariable Integer id){
+        Emp emp = empService.getById(id);
+        return Result.success(emp);
+    }
+    @PutMapping
+    public Result update(@RequestBody Emp emp){
+        empService.update(emp);
         return Result.success();
     }
 }

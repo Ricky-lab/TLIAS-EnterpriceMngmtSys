@@ -19,7 +19,7 @@ public class Emp {
     private String image;
     private Short job; // 1-Master, 2-Instructor, 3-Academic Advisor, 4-Research Advisor, 5-Advisor
     private LocalDate entrydate;
-    private Integer dept_id;
-    private LocalDateTime create_time;
-    private LocalDateTime update_time;
+    private Integer deptId;
+    private LocalDateTime createTime;
+    private LocalDateTime updateTime;
 }
