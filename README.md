@@ -2,11 +2,14 @@
 SpringBoot3 Learning Project
 
 # Learner:
-- Ricky Ruan([LinkedIn])(https://www.linkedin.com/in/yuehui-ruan/): Please visit [Ricky_Branch](https://github.com/Ricky-lab/SpringBoot3-Learning/tree/Ricky_Branch) to view my progress and project.
-- Eve Wang
+- Ricky Ruan ([LinkedIn](https://www.linkedin.com/in/yuehui-ruan/)): Please visit [Ricky_Branch](https://github.com/Ricky-lab/SpringBoot3-Learning/tree/Ricky_Branch) to view my progress and project.
+- Eve Wang ([LinkedIn](https://www.linkedin.com/in/xueqi-wang-8a1126244/))
 
 # Learning Prerequisite:
-- Intro of Java 
+- Intro of Java (JSE)
+- MySQL + SQL Query
+- HTML/CSS + JS
+- Data Structure and Algorithm
 
 # Learning Roadmap:
 - JavaWeb: [黑马-JavaWeb-2023Version](https://www.bilibili.com/video/BV1m84y1w7Tb/?spm_id_from=333.788.recommend_more_video.1&vd_source=8d421a5ac69ef359aafa0c204423d59a):
