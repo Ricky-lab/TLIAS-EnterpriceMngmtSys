@@ -2,7 +2,7 @@
 SpringBoot3 Learning Project
 
 # Learner:
-- Ricky Ruan: Please go to [Ricky_Branch](https://github.com/Ricky-lab/SpringBoot3-Learning/tree/Ricky_Branch) to view my progress and project.
+- Ricky Ruan: Please visit [Ricky_Branch](https://github.com/Ricky-lab/SpringBoot3-Learning/tree/Ricky_Branch) to view my progress and project.
 - Eve Wang
 
 # Learning Prerequisite:
