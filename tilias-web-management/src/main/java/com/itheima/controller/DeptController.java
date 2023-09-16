@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.itheima.anno.Log;
 import com.itheima.pojo.Dept;
 import com.itheima.pojo.Result;
 import com.itheima.service.DeptService;
@@ -37,6 +38,7 @@ public class DeptController {
      * @param id
      * @return
      */
+    @Log
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable Integer id){
         log.info("Delete the dept where id is: {}", id);
@@ -51,6 +53,7 @@ public class DeptController {
      * @return
      */
     @PostMapping()
+    @Log
     //The annotation is @RequestBody not PathVariable
     public Result add(@RequestBody Dept dept){
         log.info("Insert the new dept where name is: {}", dept);
@@ -65,6 +68,7 @@ public class DeptController {
      * @return
      */
     @PutMapping()
+    @Log
     public Result edit(@RequestBody Dept dept){
         log.info("Edit the current dept and then save the change");
         deptService.edit(dept);
